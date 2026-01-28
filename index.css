@@ -1,0 +1,134 @@
+/* body syle*/
+body {
+  font-family: Georgia, serif;
+  
+  margin: 0;
+  padding: 0;
+  background-image: url(wallapaper.jpg);
+  background-attachment:fixed;
+  background-repeat: round;
+}
+
+/* header style*/
+header {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 10px 0;
+}
+/* unordered lists styles*/
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+/* lists styles*/
+nav ul li {
+  margin: 0 20px;
+  text-align: center;
+  white-space: nowrap; 
+}
+
+/*link styles */
+
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-color: aliceblue;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+
+/* mouse over link */
+a:hover {
+color: rgb(255, 255, 255);
+background-color: rgba(82, 125, 145, 0.658);
+}
+
+
+/* content page style*/
+main {
+  justify-content: center;
+  padding: 93px;
+}
+
+/* one of the sections style*/
+#bienvenida {
+  width: 583px;
+  margin:0 auto;
+  padding: 13px;
+  text-align: center;
+  background-color: rgba(37, 37, 37, 0.822);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+
+/* one of the sections style*/
+#contenido {
+  width: 583px;
+  margin:0 auto;
+  padding: 13px;
+  text-align: center;
+  background-color: rgba(37, 37, 37, 0.822);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* one of the sections style*/
+#aprender {
+  width: 583px;
+  margin:0 auto;
+  padding: 13px;
+  text-align: center;
+  background-color: rgba(37, 37, 37, 0.822);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* one of the sections style*/
+#proyecto {
+  width: 583px;
+  margin:0 auto;
+  padding: 13px;
+  text-align: center;
+  background-color: rgba(37, 37, 37, 0.822);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* text style*/
+h2{
+  color: rgb(255, 255, 255);
+  font-size: 160%;
+}
+
+/* text paragraph style*/
+p{
+  color: rgb(187, 187, 187);
+  font-size: 102%;
+}
+
+/* footer style*/
+footer {
+  background-color: rgb(31, 30, 30);
+  color: white;
+  text-align: center;
+  padding: 1px ;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* footer text syle*/
+footer h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(241, 156, 156);
+}
+
+
